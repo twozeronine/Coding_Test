@@ -18,7 +18,7 @@ class test2
 
     for (int i = 0; i < s.Length; i++)
     {
-      if (check(s)) count++;
+      count = isClose(s[0]) ? count : check(s) ? ++count : count;
       Rotate(s, out s);
     }
     return count;
@@ -41,6 +41,11 @@ class test2
     return true;
   }
 
+  public static bool isClose(char s)
+  {
+    return s == ']' || s == '}' || s == ')' ? true : false;
+  }
+
   public static bool check(string s)
   {
     Stack<char> stack = new Stack<char>();
@@ -48,21 +53,9 @@ class test2
     {
       switch (s[i])
       {
-        case '[':
-          {
-            stack.Push('[');
-            break;
-          }
-        case '{':
-          {
-            stack.Push('{');
-            break;
-          }
-        case '(':
-          {
-            stack.Push('(');
-            break;
-          }
+        case '[': stack.Push('['); break;
+        case '{': stack.Push('{'); break;
+        case '(': stack.Push('('); break;
         case ']':
           {
             if (stack.Count == 0) return false;
