@@ -7,7 +7,7 @@ class Knumber
   {
     int[] array = { 1, 5, 2, 6, 3, 7, 4 };
     int[,] commands = { { 2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };
-    var result = solution(array, commands);
+    var result = solution9(array, commands);
     foreach (var num in result)
     {
       Console.Write(num);
@@ -18,12 +18,12 @@ class Knumber
   public static int[] solution9(int[] array, int[,] commands)
   {
     List<int> answer = new List<int>();
-    var count = commands.GetLength(0);
+    int count = commands.GetLength(0);
     for (int i = 0; i < count; i++)
     {
-      var first = commands[i, 0] - 1;
-      var last = commands[i, 1];
-      var sliced = array[first..last].OrderBy((num) => num).ToArray();
+      int first = commands[i, 0] - 1;
+      int last = commands[i, 1];
+      int[] sliced = array[first..last].OrderBy((num) => num).ToArray();
       answer.Add(sliced[commands[i, 2] - 1]);
     }
     return answer.ToArray();
@@ -33,13 +33,13 @@ class Knumber
   public static int[] solution(int[] array, int[,] commands)
   {
     List<int> answer = new List<int>();
-    var Length = commands.GetLength(0);
+    int Length = commands.GetLength(0);
     for (int i = 0; i < Length; i++)
     {
-      var first = commands[i, 0] - 1;
-      var last = commands[i, 1];
-      var count = last - first;
-      var pickNumber = commands[i, 2] - 1;
+      int first = commands[i, 0] - 1;
+      int last = commands[i, 1];
+      int count = last - first;
+      int pickNumber = commands[i, 2] - 1;
       int[] sliced = new int[count];
       Array.Copy(array, first, sliced, 0, count);
       Array.Sort(sliced);
@@ -47,5 +47,4 @@ class Knumber
     }
     return answer.ToArray();
   }
-
 }
