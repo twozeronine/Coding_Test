@@ -21,10 +21,9 @@ class Knumber
     int count = commands.GetLength(0);
     for (int i = 0; i < count; i++)
     {
-      int first = commands[i, 0] - 1;
-      int last = commands[i, 1];
-      int[] sliced = array[first..last].OrderBy((num) => num).ToArray();
-      answer.Add(sliced[commands[i, 2] - 1]);
+      var cmd = new { First = commands[i, 0] - 1, Last = commands[i, 1], Pick = commands[i, 2] - 1 };
+      int[] sliced = array[cmd.First..cmd.Last].OrderBy((num) => num).ToArray();
+      answer.Add(sliced[cmd.Pick]);
     }
     return answer.ToArray();
   }
