@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Knumber
 {
   // C# 8.0에서 지원하는 System.Range 사용
-  public static int[] solution9(int[] array, int[,] commands)
+  public static int[] solution8(int[] array, int[,] commands)
   {
     List<int> answer = new List<int>();
     int count = commands.GetLength(0);

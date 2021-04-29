@@ -19,7 +19,7 @@ class MainApp
 
     int[] array = { 1, 5, 2, 6, 3, 7, 4 };
     int[,] commands = { { 2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };
-    var result2 = Knumber.solution9(array, commands);
+    var result2 = Knumber.solution8(array, commands);
     foreach (var num in result2)
     {
       Console.Write(num);
