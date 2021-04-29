@@ -5,12 +5,7 @@ using System.Collections.Generic;
 
 class test2
 {
-  // static void Main(string[] args)
-  // {
-  //   string case1;
-  //   case1 = "}]()[{";
-  //   Console.WriteLine(solution(case1));
-  // }
+
   public static int solution(string s)
   {
     int count = 0;

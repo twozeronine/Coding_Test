@@ -3,16 +3,6 @@ using System.Linq;
 using System.Collections.Generic;
 class test
 {
-  // static void Main(string[] args)
-  // {
-  //   int[] a = { 1, 3, 2, 4, 2 };
-  //   var result = solution(a);
-  //   foreach (var student in result)
-  //   {
-  //     Console.Write(student);
-  //   }
-  // }
-
   public static int[] solution(int[] answers)
   {
     List<int> answer = new List<int>();

@@ -3,17 +3,6 @@ using System.Linq;
 using System.Collections.Generic;
 class Knumber
 {
-  static void Main(string[] args)
-  {
-    int[] array = { 1, 5, 2, 6, 3, 7, 4 };
-    int[,] commands = { { 2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };
-    var result = solution9(array, commands);
-    foreach (var num in result)
-    {
-      Console.Write(num);
-    }
-  }
-
   // C# 8.0에서 지원하는 System.Range 사용
   public static int[] solution9(int[] array, int[,] commands)
   {
