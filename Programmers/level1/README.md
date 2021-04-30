@@ -7,3 +7,4 @@
 3. [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862?language=csharp)
 4. [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901?language=csharp)
 5. [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=csharp)
+6. [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977?language=csharp)

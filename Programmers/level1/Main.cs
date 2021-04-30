@@ -47,5 +47,11 @@ class MainApp
     string words = "a";
     var result5 = MiddleNumber.solution(words);
     Console.WriteLine($"가운데 글자 가져오기 정답 : {result5}");
+
+
+    //소수 만들기
+    int[] nums = { 1, 2, 3, 4, 7, 8, 13, 15, 36, 24, 12, 56, 37, 67 };
+    var result6 = PrimeNumeber.solution(nums);
+    Console.WriteLine($"소수 만들기 정답 : {result6}");
   }
 }
