@@ -40,6 +40,12 @@ class MainApp
     int days = 14;
     var result4 = year2016.solution(month, days);
     result4 = year2016.other_solution(month, days);
-    Console.Write($"2016년 정답 : {result4}");
+    Console.WriteLine($"2016년 정답 : {result4}");
+
+
+    //가운데 글자 가져오기
+    string words = "a";
+    var result5 = MiddleNumber.solution(words);
+    Console.WriteLine($"가운데 글자 가져오기 정답 : {result5}");
   }
 }
