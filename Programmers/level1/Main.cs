@@ -85,11 +85,15 @@ class MainApp
     {
       Console.Write(num);
     }
-    Console.Write("");
+    Console.WriteLine();
 
     //나누어 떨어지는 숫자 배열
     int[] arr = { 5, 9, 7, 10 };
     int divisor = 5;
     var result12 = Divisor.solution(arr, divisor);
+
+    //두 정수 사이의 합
+    var result13 = integer.solution(0, 10000000);
+    Console.WriteLine($"두 정수 사이의 합 : {result13}");
   }
 }
