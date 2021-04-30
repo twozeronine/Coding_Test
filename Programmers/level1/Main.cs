@@ -70,5 +70,21 @@ class MainApp
     int num10 = 45;
     var result9 = TernaryReverse.solution(num10);
     Console.WriteLine($"3진법 뒤집기 : {result9}");
+
+    // 내적 구하기
+    int[] vector1 = { 1, 2, 3, 4 };
+    int[] vector2 = { -3, -1, 0, 2 };
+    var result10 = DotProduct.solution(vector1, vector2);
+    Console.WriteLine($"내적 : {result10}");
+
+    // 두 개 뽑아서 더하기
+    int[] numbers = { 2, 1, 3, 4, 1 };
+    var result11 = PickTwoSum.solution(numbers);
+    Console.Write($"두 개 뽑아서 더하기 : ");
+    foreach (var num in result11)
+    {
+      Console.Write(num);
+    }
+    Console.Write("");
   }
 }
