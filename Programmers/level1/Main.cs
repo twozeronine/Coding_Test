@@ -53,5 +53,22 @@ class MainApp
     int[] nums = { 1, 2, 3, 4, 7, 8, 13, 15, 36, 24, 12, 56, 37, 67 };
     var result6 = PrimeNumeber.solution(nums);
     Console.WriteLine($"소수 만들기 정답 : {result6}");
+
+    //로또의 최고 순위와 최저 순위
+    int[] lottos = new int[6] { 44, 1, 0, 0, 31, 25 };
+    int[] win_nums = new int[6] { 38, 19, 20, 40, 15, 25 };
+    var result7 = lotto.solution(lottos, win_nums);
+    Console.WriteLine($"로또의 최고 순위와 최저 순위 : [{result7[0]}, {result7[1]}]");
+
+    //예산
+    int[] d = new int[5] { 1, 3, 2, 5, 4 };
+    int budget = 9;
+    var result8 = Money.solution(d, budget);
+    Console.WriteLine($"예산: {result8}");
+
+    //3진법 뒤집기
+    int num10 = 45;
+    var result9 = TernaryReverse.solution(num10);
+    Console.WriteLine($"3진법 뒤집기 : {result9}");
   }
 }
