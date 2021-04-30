@@ -8,3 +8,5 @@
 4. [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901?language=csharp)
 5. [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=csharp)
 6. [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977?language=csharp)
+7. [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484?language=csharp)
+8. [예산](https://programmers.co.kr/learn/courses/30/lessons/12982?language=csharp)
