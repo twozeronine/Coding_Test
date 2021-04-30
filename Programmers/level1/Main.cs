@@ -34,5 +34,12 @@ class MainApp
     int[] reserve = { 1, 3, 5 };
     var result3 = trainingclothes.solution(n, lost, reserve);
     Console.WriteLine($"체육복 정답 :{result3}");
+
+    // 2016년
+    int month = 9;
+    int days = 14;
+    var result4 = year2016.solution(month, days);
+    result4 = year2016.other_solution(month, days);
+    Console.Write($"2016년 정답 : {result4}");
   }
 }
