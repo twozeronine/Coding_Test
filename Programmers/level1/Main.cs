@@ -86,5 +86,10 @@ class MainApp
       Console.Write(num);
     }
     Console.Write("");
+
+    //나누어 떨어지는 숫자 배열
+    int[] arr = { 5, 9, 7, 10 };
+    int divisor = 5;
+    var result12 = Divisor.solution(arr, divisor);
   }
 }
