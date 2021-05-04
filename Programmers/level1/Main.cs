@@ -165,7 +165,22 @@ class MainApp
     #endregion
 
 
-    #region Name
+    #region 소수찾기
+
+    //소수 찾기
+    int number = 20;
+    var result18 = FindPrimeNumber.solution(number);
+    Console.WriteLine($"n까지의 소수의 갯수는 ? : {result18}");
+
+
+    #endregion
+
+    #region 수박수박수박수박수박수
+
+    //수박수박수박수박수박수
+    number = 30;
+    var result19 = WaterMelon.solution(number);
+    Console.WriteLine($"{result19}");
 
     #endregion
 
