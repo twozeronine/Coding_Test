@@ -211,6 +211,15 @@ class MainApp
 
     #endregion
 
+    #region 이상한 문자 만들기 
+
+    //이상한 문자 만들기
+    s = "try hello world";
+    var result23 = MakeStrangeString.solution(s);
+    Console.WriteLine($"이상한 문자 만들기 : {result23}");
+
+    #endregion
+
 
 
 
