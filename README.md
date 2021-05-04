@@ -26,6 +26,7 @@
 13. [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
 14. [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915?language=csharp)
 15. [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917?language=csharp)
+16. [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 

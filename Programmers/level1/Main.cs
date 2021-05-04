@@ -99,7 +99,7 @@ class MainApp
     //문자열 내 마음대로 정렬하기
     string[] strings = { "abzaa,abzbb,abzcd,bbzaa,cdzab" };
     var result14 = PickString.solution(strings, 2);
-    Console.WriteLine("문자열 내 마음대로 정렬하기 : ");
+    Console.Write("문자열 내 마음대로 정렬하기 : ");
     foreach (var item in result14)
     {
       Console.Write(item);
@@ -110,9 +110,10 @@ class MainApp
     string s = "Zbcdefg";
     var result15 = StringSort.solution(s);
     Console.WriteLine($"문자열 내림차순으로 배치하기 : {result15}");
-    foreach (var item in result15)
-    {
-      Console.Write(item);
-    }
+
+    //문자열 다루기 기본
+    string str = "123a";
+    var result16 = StringBasic.solution(str);
+    Console.WriteLine($"문자열 다루기 기본 : {result16}");
   }
 }
