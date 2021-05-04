@@ -30,6 +30,7 @@
 17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919?language=csharp)
 18. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921?language=csharp)
 19. [수박수박수박수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922?language=csharp)
+20. [문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
@@ -39,4 +40,4 @@
 # 참고 문서
 
 1. 소수를 찾는 방법 [에라토스테네스의 체](https://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4)
-2. [정규 표현식] (https://docs.microsoft.com/ko-kr/dotnet/standard/base-types/regular-expressions)
+2. [정규 표현식](https://docs.microsoft.com/ko-kr/dotnet/standard/base-types/regular-expressions)

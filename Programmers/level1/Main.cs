@@ -184,6 +184,15 @@ class MainApp
 
     #endregion
 
+    #region 문자열을 정수로 바꾸기
+
+    //문자열을 정수로 바꾸기
+    s = "1234";
+    var result20 = ParseStringtoInt.solution8(s);
+    Console.WriteLine($"문자열을 정수로 바꾸기 : {result20}");
+
+    #endregion
+
 
 
 
