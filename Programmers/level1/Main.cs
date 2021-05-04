@@ -95,5 +95,13 @@ class MainApp
     //두 정수 사이의 합
     var result13 = integer.solution(0, 10000000);
     Console.WriteLine($"두 정수 사이의 합 : {result13}");
+
+    //문자열 내 마음대로 정렬하기
+    string[] strings = { "abzaa,abzbb,abzcd,bbzaa,cdzab" };
+    var result14 = PickString.solution(strings, 2);
+    foreach (var item in result14)
+    {
+      Console.Write(item);
+    }
   }
 }

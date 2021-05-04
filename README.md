@@ -1,6 +1,6 @@
 # Coding_Test
 
-> 코딩테스트 문제 연습 저장소
+> 코딩테스트 문제 연습 저장소  
 > .NET 5 환경 기준으로 작성된 C#코드들 입니다.
 
 ---
@@ -24,6 +24,8 @@
 11. [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644?language=csharp)
 12. [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910?language=csharp)
 13. [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
+14. [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915?language=csharp)
+15. [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
