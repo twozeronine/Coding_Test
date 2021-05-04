@@ -219,6 +219,14 @@ class MainApp
     Console.WriteLine($"이상한 문자 만들기 : {result23}");
 
     #endregion
+    #region 자릿수 더하기
+
+    //자릿수 더하기
+    number = 797234;
+    var result24 = digitsum.solution(number);
+    Console.WriteLine($"자릿수 더하기 : {result24}");
+
+    #endregion
 
 
 

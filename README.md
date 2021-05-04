@@ -34,6 +34,7 @@
 21. [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
 22. [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928?language=csharp)
 23. [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
+24. [자릿수 더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)
 
 ### 월간 코드 챌린지 시즌2
 
