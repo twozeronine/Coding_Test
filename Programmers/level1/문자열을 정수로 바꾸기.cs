@@ -20,6 +20,8 @@ class ParseStringtoInt
     return answer;
   }
 
+  // ↑ 애초에 다 True값이 나옴
+
 
   // 다른 사람 풀이 
   public static int other_solution(string s)

@@ -193,6 +193,15 @@ class MainApp
 
     #endregion
 
+    #region 시저 암호 
+
+    //시저 암호
+    s = "A D a C xC";
+    var result21 = CaesarCipher.solution(s, 3);
+    Console.WriteLine($"시저 암호 : {result21}");
+
+    #endregion
+
 
 
 
