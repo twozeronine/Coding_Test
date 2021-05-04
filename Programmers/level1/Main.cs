@@ -202,6 +202,15 @@ class MainApp
 
     #endregion
 
+    #region 약수의 합 
+
+    //약수의 합
+    number = 12;
+    var result22 = DivisorSum.solution(number);
+    Console.WriteLine($"약수의 합 : {result22}");
+
+    #endregion
+
 
 
 
