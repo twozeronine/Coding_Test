@@ -28,8 +28,13 @@
 15. [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917?language=csharp)
 16. [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918?language=csharp)
 17. [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919?language=csharp)
+18. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
 1. [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
 2. [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502?language=csharp)
+
+# 참고 알고리즘
+
+1. 소수를 찾는 방법 [에라토스테네스의 체](https://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4)
