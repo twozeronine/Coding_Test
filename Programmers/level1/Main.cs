@@ -243,6 +243,15 @@ class MainApp
 
     #endregion
 
+    #region 정수 내림차순으로 배치하기
+
+    //정수 내림차순으로 배치하기
+    number = 797635234;
+    var result26 = Sortinteger.solution(number);
+    Console.WriteLine($"정수 내림차순으로 배치하기 : {result26} ");
+
+    #endregion
+
 
 
 
