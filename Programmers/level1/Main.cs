@@ -275,6 +275,15 @@ class MainApp
 
     #endregion
 
+    #region 짝수와 홀수
+
+    //짝수와 홀수
+    number = 3;
+    var result29 = EvenOrOdd.solution(number);
+    Console.Write($"짝수와 홀수 : {result29} ");
+
+    #endregion
+
 
 
 
