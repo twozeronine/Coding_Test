@@ -252,6 +252,15 @@ class MainApp
 
     #endregion
 
+    #region 정수 제곱근 판별
+
+    //정수 제곱근 판별
+    number = 797635234;
+    var result27 = Squareroot.solution(number);
+    Console.WriteLine($"정수 제곱근 판별 : {result27} ");
+
+    #endregion
+
 
 
 
