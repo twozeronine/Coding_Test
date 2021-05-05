@@ -261,6 +261,20 @@ class MainApp
 
     #endregion
 
+    #region 제일 작은 수 제거하기
+
+    //제일 작은 수 제거하기
+    arr = new int[] { 4, 3, 2, 1 };
+    var result28 = RemoveSmallestNumber.solution(arr);
+    Console.Write($"제일 작은 수 제거하기 :  ");
+    foreach (var item in result28)
+    {
+      Console.Write(item);
+    }
+    Console.WriteLine();
+
+    #endregion
+
 
 
 
