@@ -219,6 +219,7 @@ class MainApp
     Console.WriteLine($"이상한 문자 만들기 : {result23}");
 
     #endregion
+
     #region 자릿수 더하기
 
     //자릿수 더하기
@@ -228,7 +229,19 @@ class MainApp
 
     #endregion
 
+    #region 자연수 뒤집어 배열로 만들기
 
+    //자연수 뒤집어 배열로 만들기
+    number = 797635234;
+    var result25 = Naturalnumber.solution(number);
+    Console.Write($"자연수 뒤집어 배열로 만들기 : ");
+    foreach (var item in result25)
+    {
+      Console.Write(item);
+    }
+    Console.WriteLine();
+
+    #endregion
 
 
 
