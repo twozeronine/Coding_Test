@@ -34,6 +34,7 @@ n까지의 소수의 갯수는 ? : 8
 콜라츠 추측 : 4
 평균 구하기 : 2.5
 하샤드 수 : True
+핸드폰 번호 가리기 : *******4444
 */
 
 class MainApp
@@ -362,6 +363,14 @@ class MainApp
 
     #endregion
 
+    #region 핸드폰 번호 가리기
+
+    //핸드폰 번호 가리기
+    s = "01033334444";
+    var result34 = HidePhoneNumber.solution(s);
+    Console.WriteLine($"핸드폰 번호 가리기 : {result34}");
+
+    #endregion
 
 
 
