@@ -40,6 +40,7 @@
 27. [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934?language=csharp)
 28. [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935?language=csharp)
 29. [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
+30. [최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 

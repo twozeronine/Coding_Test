@@ -284,6 +284,21 @@ class MainApp
 
     #endregion
 
+    #region 최대공약수와 최소공배수
+
+    //최대공약수와 최소공배수
+    number = 3;
+    n = 12;
+    var result30 = GCDLCM.solution(number, n);
+    Console.Write($"최대공약수와 최소공배수 :  ");
+    foreach (var item in result30)
+    {
+      Console.Write($"{item} ");
+    }
+    Console.WriteLine();
+
+    #endregion
+
 
 
 
