@@ -35,6 +35,8 @@ n까지의 소수의 갯수는 ? : 8
 평균 구하기 : 2.5
 하샤드 수 : True
 핸드폰 번호 가리기 : *******4444
+행렬의 덧셈 :  4 6 7 9
+X만큼 간격이 있는 n개의 숫자 :  2 4 6 8 10
 */
 
 class MainApp
@@ -387,6 +389,20 @@ class MainApp
 
     #endregion
 
+    #region X만큼 간격이 있는 n개의 숫자
+
+    //X만큼 간격이 있는 n개의 숫자
+    n = 5;
+    number = 2;
+    var result36 = IntervalMultiply.solution(number, n);
+    Console.Write($"X만큼 간격이 있는 n개의 숫자 :  ");
+    foreach (var item in result36)
+    {
+      Console.Write($"{item} ");
+    }
+    Console.WriteLine();
+
+    #endregion
 
 
 

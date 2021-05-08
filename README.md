@@ -46,6 +46,7 @@
 33. [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947?language=csharp)
 34. [휴대폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948?language=csharp)
 35. [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950?language=csharp)
+36. [X만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
