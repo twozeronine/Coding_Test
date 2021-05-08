@@ -29,8 +29,10 @@ n까지의 소수의 갯수는 ? : 8
 정수 내림차순으로 배치하기 : 977654332
 정수 제곱근 판별 : -1
 제일 작은 수 제거하기 :  432
-짝수와 홀수 : Odd 최대공약수와 최소공배수 :  3 12
-콜라츠 추측 :4
+짝수와 홀수 : Odd
+최대공약수와 최소공배수 :  3 12
+콜라츠 추측 : 4
+평균 구하기 : 2.5
 
 */
 
@@ -314,7 +316,7 @@ class MainApp
     //짝수와 홀수
     number = 3;
     var result29 = EvenOrOdd.solution(number);
-    Console.Write($"짝수와 홀수 : {result29} ");
+    Console.WriteLine($"짝수와 홀수 : {result29} ");
 
     #endregion
 
@@ -338,10 +340,18 @@ class MainApp
     //콜라츠 추측
     n = 16;
     var result31 = Collatz.solution(n);
-    Console.Write($"콜라츠 추측 : {result31}");
+    Console.WriteLine($"콜라츠 추측 : {result31}");
 
     #endregion
 
+    #region 평균 구하기
+
+    //평균 구하기
+    arr = new int[] { 1, 2, 3, 4 };
+    var result32 = Average.solution(arr);
+    Console.WriteLine($"평균 구하기 : {result32}");
+
+    #endregion
 
 
 

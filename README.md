@@ -42,6 +42,7 @@
 29. [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
 30. [최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940?language=csharp)
 31. [콜라츠의추측](https://programmers.co.kr/learn/courses/30/lessons/12943?language=csharp)
+32. [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
