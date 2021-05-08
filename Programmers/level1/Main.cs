@@ -372,6 +372,20 @@ class MainApp
 
     #endregion
 
+    #region 행렬의 덧셈
+
+    //행렬의 덧셈
+    int[,] arr2 = new int[2, 2] { { 1, 2 }, { 2, 3 } };
+    int[,] arr3 = new int[2, 2] { { 3, 4 }, { 5, 6 } };
+    var result35 = SumMatrix.solution(arr2, arr3);
+    Console.Write($"행렬의 덧셈 :  ");
+    foreach (var item in result35)
+    {
+      Console.Write($"{item} ");
+    }
+    Console.WriteLine();
+
+    #endregion
 
 
 

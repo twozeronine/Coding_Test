@@ -45,6 +45,7 @@
 32. [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944?language=csharp)
 33. [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947?language=csharp)
 34. [휴대폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948?language=csharp)
+35. [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950?language=csharp)
 
 ### 월간 코드 챌린지 시즌2
 
