@@ -33,7 +33,7 @@ n까지의 소수의 갯수는 ? : 8
 최대공약수와 최소공배수 :  3 12
 콜라츠 추측 : 4
 평균 구하기 : 2.5
-
+하샤드 수 : True
 */
 
 class MainApp
@@ -353,6 +353,14 @@ class MainApp
 
     #endregion
 
+    #region 하샤드 수
+
+    //하샤드 수
+    number = 10;
+    var result33 = HashadNumber.solution(number);
+    Console.WriteLine($"하샤드 수 : {result33}");
+
+    #endregion
 
 
 
