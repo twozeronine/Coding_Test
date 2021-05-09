@@ -49,6 +49,10 @@
 36. [X만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954?language=csharp)
 37. [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969?language=csharp)
 
+### level2
+
+1.[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165?language=csharp)
+
 ### 월간 코드 챌린지 시즌2
 
 1. [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
