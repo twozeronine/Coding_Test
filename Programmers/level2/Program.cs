@@ -21,9 +21,11 @@ class Program
 
     int[] progresses = { 93, 30, 55 };
     int[] speeds = { 1, 30, 5 };
-    var result1 = DevelopFunction.solution(progresses, speeds);
+    var result1 = DevelopFunction.otherSolution(progresses, speeds);
+    Console.Write($"기능개발 정답 : ");
     foreach (var element in result1)
-      Console.WriteLine(element);
+      Console.Write($"{element}, ");
+    Console.WriteLine();
     #endregion
   }
 }

@@ -72,7 +72,7 @@ public class DevelopFunction
                };
 
     answer = tmp2.Select(x => x.CNT).ToArray();
-
+        Console.WriteLine();
     return answer;
   }
 }
