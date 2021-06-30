@@ -13,6 +13,10 @@ namespace LINQ_Practice
             Select.SwapPrint();
             Select.SortWordsCase();
             Select.DigitOddEven();
+            Select.SelectProductField();
+            Select.PrintIndex();
+            Select.SelectWhere();
+            Select.SelectTwoArray();
 
             // GroupByInto 
 
