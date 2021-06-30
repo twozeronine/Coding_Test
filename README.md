@@ -52,7 +52,8 @@
 ### level2
 
 1. [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165?language=csharp)
-2. [기능개발](https://github.com/twozeronine/Coding_Test/blob/main/Programmers/level2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.cs)
+2. [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+3. [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
 ### 월간 코드 챌린지 시즌2
 

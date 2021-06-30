@@ -19,19 +19,17 @@ public class GroupByInto
         Console.Write($" {n} ");
       Console.WriteLine(" ] ");
     }
-    Console.WriteLine();
 
-    /* 실행결과 
-      0 : [  5  0  ] 
-      4 : [  4  9  ]
-      1 : [  1  6  ]
-      3 : [  3  8  ]
-      2 : [  7  2  ]
+    /* 출력
+    0 : [  5  0  ] 
+    4 : [  4  9  ]
+    1 : [  1  6  ]
+    3 : [  3  8  ]
+    2 : [  7  2  ]
 
+    number.Remainder : [ number.Numbers[0] number.Numbers[1] ]
     */
-
   }
-
   public static void GetSameFirstLetter()
   {
     string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
@@ -55,8 +53,18 @@ public class GroupByInto
       a:[abacus  apple]
     */
 
-  }
 
+    Console.WriteLine();
+
+    /* 실행결과 
+      0 : [  5  0  ] 
+      4 : [  4  9  ]
+      1 : [  1  6  ]
+      3 : [  3  8  ]
+      2 : [  7  2  ]
+
+    */
+  }
   public class Product
   {
     public Product(string category, string name)
@@ -96,7 +104,6 @@ public class GroupByInto
       fruit:[Banana  Apple  Grape]
     */
   }
-
   #region class AnagramEqulityComparer : IEqualityComparer<T> 
   public class AnagramEqualityComparer : IEqualityComparer<string>
   {
@@ -132,7 +139,8 @@ public class GroupByInto
       Console.WriteLine(" ] ");
     }
     Console.WriteLine();
-
   }
-
 }
+
+
+
