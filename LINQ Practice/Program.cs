@@ -7,17 +7,24 @@ namespace LINQ_Practice
   {
     static void Main(string[] args)
     {
+      // Where
+
+      Where.FindLowNums();
+      Where.FilterProducts();
+      Where.FilterCustomerRegionList();
+      Where.FilterToIndex();
+
       // Select
 
-      Select.PrintSequence();
-      Select.SelectOneField();
-      Select.SwapPrint();
-      Select.SortWordsCase();
-      Select.DigitOddEven();
-      Select.SelectProductField();
-      Select.PrintIndex();
-      Select.SelectWhere();
-      Select.SelectTwoArray();
+      // Select.PrintSequence();
+      // Select.SelectOneField();
+      // Select.SwapPrint();
+      // Select.SortWordsCase();
+      // Select.DigitOddEven();
+      // Select.SelectProductField();
+      // Select.PrintIndex();
+      // Select.SelectWhere();
+      // Select.SelectTwoArray();
 
       // GroupByInto 
 
