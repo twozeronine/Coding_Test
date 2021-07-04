@@ -9,10 +9,10 @@ namespace LINQ_Practice
     {
       // Where
 
-      Where.FindLowNums();
-      Where.FilterProducts();
-      Where.FilterCustomerRegionList();
-      Where.FilterToIndex();
+      // Where.FindLowNums();
+      // Where.FilterProducts();
+      // Where.FilterCustomerRegionList();
+      // Where.FilterToIndex();
 
       // Select
 
@@ -32,6 +32,16 @@ namespace LINQ_Practice
       // GroupByInto.GetSameFirstLetter();
       // GroupByInto.GetSameCategory();
       // GroupByInto.GetIEqualityComparer();
+
+      // PartitionOperator
+
+      PartitionOperator.TakeNumber();
+      PartitionOperator.Take3OrdersFromSamePlace();
+      PartitionOperator.Skip4Numbers();
+      PartitionOperator.GetUntil2Orders();
+      PartitionOperator.TakeFirstNumbersLessThan6();
+      PartitionOperator.TakeFirstSmallNumbers();
+      PartitionOperator.SkipWhile();
     }
   }
 }
