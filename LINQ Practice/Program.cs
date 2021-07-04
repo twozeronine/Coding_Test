@@ -35,13 +35,24 @@ namespace LINQ_Practice
 
       // PartitionOperator
 
-      PartitionOperator.TakeNumber();
-      PartitionOperator.Take3OrdersFromSamePlace();
-      PartitionOperator.Skip4Numbers();
-      PartitionOperator.GetUntil2Orders();
-      PartitionOperator.TakeFirstNumbersLessThan6();
-      PartitionOperator.TakeFirstSmallNumbers();
-      PartitionOperator.SkipWhile();
+      // PartitionOperator.TakeNumber();
+      // PartitionOperator.Take3OrdersFromSamePlace();
+      // PartitionOperator.Skip4Numbers();
+      // PartitionOperator.GetUntil2Orders();
+      // PartitionOperator.TakeFirstNumbersLessThan6();
+      // PartitionOperator.TakeFirstSmallNumbers();
+      // PartitionOperator.SkipWhile();
+
+      // OrderingOperator
+
+      OrderingOperator.SortedWords();
+      OrderingOperator.SortedWordsByLength();
+      OrderingOperator.SortedProductByName();
+      OrderingOperator.DescendingOrder();
+      OrderingOperator.Sorted2Condition();
+      OrderingOperator.ReversedDigit();
+      OrderingOperator.SortedWordsByComparer();
+      OrderingOperator.SortedWordsByNestedComparer();
     }
   }
 }

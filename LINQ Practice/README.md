@@ -18,3 +18,5 @@ Select 절은 입력 시퀀스를 원하는 출력 시퀀스로 변환합니다.
 ## [PartitionOperator.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/PartitionOperator.cs)
 
 LINQ 에서 제공하는 확장 메서드 중 Take, Skip, TakeWhile, SkipWhile 을 분할 연산자라고 한다. 분할 연산자는 출력 시퀀스를 분할시켜 반환한다.
+
+## [OrderingOperator.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/OrderingOperator.cs)
