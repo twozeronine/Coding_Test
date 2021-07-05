@@ -26,14 +26,14 @@ namespace LINQ_Practice
       // Select.SelectWhere();
       // Select.SelectTwoArray();
 
-      // GroupByInto 
+      // Group By Into 
 
       // GroupByInto.GetSameRemainder();
       // GroupByInto.GetSameFirstLetter();
       // GroupByInto.GetSameCategory();
       // GroupByInto.GetIEqualityComparer();
 
-      // PartitionOperator
+      // Partition Operator
 
       // PartitionOperator.TakeNumber();
       // PartitionOperator.Take3OrdersFromSamePlace();
@@ -43,7 +43,7 @@ namespace LINQ_Practice
       // PartitionOperator.TakeFirstSmallNumbers();
       // PartitionOperator.SkipWhile();
 
-      // OrderingOperator
+      // Ordering Operator
 
       // OrderingOperator.SortedWords();
       // OrderingOperator.SortedWordsByLength();
@@ -54,13 +54,19 @@ namespace LINQ_Practice
       // OrderingOperator.SortedWordsByComparer();
       // OrderingOperator.SortedWordsByNestedComparer();
 
-      // SetOperators
+      // Set Operators
 
-      SetOperators.RemoveOverlap();
-      SetOperators.UnionNumbers();
-      SetOperators.IntersectNumbers();
-      SetOperators.ExceptNumbers();
+      // SetOperators.RemoveOverlap();
+      // SetOperators.UnionNumbers();
+      // SetOperators.IntersectNumbers();
+      // SetOperators.ExceptNumbers();
 
+      // Conversion Operator
+
+      ConversionOperators.ToArray();
+      ConversionOperators.ToList();
+      ConversionOperators.ToDictionary();
+      ConversionOperators.OfType();
     }
   }
 }
