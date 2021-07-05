@@ -45,14 +45,22 @@ namespace LINQ_Practice
 
       // OrderingOperator
 
-      OrderingOperator.SortedWords();
-      OrderingOperator.SortedWordsByLength();
-      OrderingOperator.SortedProductByName();
-      OrderingOperator.DescendingOrder();
-      OrderingOperator.Sorted2Condition();
-      OrderingOperator.ReversedDigit();
-      OrderingOperator.SortedWordsByComparer();
-      OrderingOperator.SortedWordsByNestedComparer();
+      // OrderingOperator.SortedWords();
+      // OrderingOperator.SortedWordsByLength();
+      // OrderingOperator.SortedProductByName();
+      // OrderingOperator.DescendingOrder();
+      // OrderingOperator.Sorted2Condition();
+      // OrderingOperator.ReversedDigit();
+      // OrderingOperator.SortedWordsByComparer();
+      // OrderingOperator.SortedWordsByNestedComparer();
+
+      // SetOperators
+
+      SetOperators.RemoveOverlap();
+      SetOperators.UnionNumbers();
+      SetOperators.IntersectNumbers();
+      SetOperators.ExceptNumbers();
+
     }
   }
 }

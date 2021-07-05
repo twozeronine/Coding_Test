@@ -20,3 +20,11 @@ Select 절은 입력 시퀀스를 원하는 출력 시퀀스로 변환합니다.
 LINQ 에서 제공하는 확장 메서드 중 Take, Skip, TakeWhile, SkipWhile 을 분할 연산자라고 한다. 분할 연산자는 출력 시퀀스를 분할시켜 반환한다.
 
 ## [OrderingOperator.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/OrderingOperator.cs)
+
+정렬 연산자인 OrderBy는 출력 시퀀스를 기준에 따라 정렬하는 연산자이다.
+
+## [SetOperators.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/SetOperators.cs)
+
+집합 연산자는 두 집합 간에 관계를 활용하는 연산자입니다.
+
+LINQ 메서드 중 Distinct, Union, Intersect, Except 가 집합 연산자에 해당합니다.
