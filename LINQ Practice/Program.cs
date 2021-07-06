@@ -77,8 +77,15 @@ namespace LINQ_Practice
       // ElementOperators.FindFourthLowNumber();
 
       // Range Repeat
-      RangeRepeat.Range();
-      RangeRepeat.Repeat();
+
+      //   RangeRepeat.Range();
+      //   RangeRepeat.Repeat();
+
+      // Quantifiers
+
+      Quantifiers.isElementHere();
+      Quantifiers.isOnlyOdd();
+      Quantifiers.isGroupHaveStock();
     }
   }
 }
