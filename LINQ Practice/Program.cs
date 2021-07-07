@@ -89,9 +89,15 @@ namespace LINQ_Practice
 
       // Aggregators
 
-      Aggregators.Count.DistinctCount();
-      Aggregators.Count.GetOddNumbersCount();
-      Aggregators.Count.CountOrder();
+      //Count
+      // Aggregators.Count.DistinctCount();
+      // Aggregators.Count.GetOddNumbersCount();
+      // Aggregators.Count.CountOrder();
+
+      //Sum
+      Aggregators.Sum.SumNumbers();
+      Aggregators.Sum.SumLength();
+      Aggregators.Sum.SumInproduct();
     }
   }
 }
