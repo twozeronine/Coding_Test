@@ -55,4 +55,12 @@ Repeat 메서드는 특정 숫자를 특정 횟수만큼 반복한 집합을 만
 마이크로소프트의 공식 번역은 '수량자'이지만 수량과는 전혀 상관이 없다.
 Any 메서드는 집합 안에 조건에 맞는 요소가 하나라도 있는지 확인하는 메서드이고, All 메서드는 집합 안에 모든 요소가 조건에 맞는지 확인하는 메서드입니다.
 
+## [Aggregators](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/Aggregators)
+
+집계 작업은 집합 모든 요소를 계산하여 하나의 값으로 변환하는 작업입니다. 집계 작업에 해당하는 LINQ 메서드로는 Count, Sum, Min, Max, Average, Aggregate가 있습니다.
+
+## [Count.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/Aggregators/Count.cs)
+
+집합 내 요소 개수 세기
+
 > 자료 출처: https://ibocon.tistory.com/
