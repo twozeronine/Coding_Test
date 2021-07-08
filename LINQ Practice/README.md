@@ -75,4 +75,8 @@ Any 메서드는 집합 안에 조건에 맞는 요소가 하나라도 있는지
 
 집합 내 최댓값 찾기
 
+## [Average.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/Aggregators/Average.cs)
+
+집합 내에서 평균값 계산하기
+
 > 자료 출처: https://ibocon.tistory.com/

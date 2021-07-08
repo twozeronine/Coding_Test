@@ -105,10 +105,14 @@ namespace LINQ_Practice
       // Aggregators.Min.GetSameCategory();
 
       //Max
-      Aggregators.Max.GetMax();
-      Aggregators.Max.GetLongestLength();
-      Aggregators.Max.GetSameCategory();
+      //   Aggregators.Max.GetMax();
+      //   Aggregators.Max.GetLongestLength();
+      //   Aggregators.Max.GetSameCategory();
 
+      //Average
+      Aggregators.Average.GetAverage();
+      Aggregators.Average.GetAverageLegth();
+      Aggregators.Average.GetProductAveragePrice();
     }
   }
 }
