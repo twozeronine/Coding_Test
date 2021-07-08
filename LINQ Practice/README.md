@@ -79,4 +79,8 @@ Any 메서드는 집합 안에 조건에 맞는 요소가 하나라도 있는지
 
 집합 내에서 평균값 계산하기
 
+## [Aggregate.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/Aggregators/Aggregate.cs)
+
+Enumeralbe.Aggregate 메서드는 합계, 총액 즉 누산기다.
+
 > 자료 출처: https://ibocon.tistory.com/
