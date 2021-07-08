@@ -67,4 +67,8 @@ Any 메서드는 집합 안에 조건에 맞는 요소가 하나라도 있는지
 
 집합 내 모든 원소 더하기
 
+## [Min.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/Aggregators/Min.cs)
+
+집합 내 최솟값 찾기
+
 > 자료 출처: https://ibocon.tistory.com/
