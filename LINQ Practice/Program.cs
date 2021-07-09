@@ -7,116 +7,114 @@ namespace LINQ_Practice
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                // Where
+            // Where
 
-                // Where.FindLowNums();
-                // Where.FilterProducts();
-                // Where.FilterCustomerRegionList();
-                // Where.FilterToIndex();
+            // Where.FindLowNums();
+            // Where.FilterProducts();
+            // Where.FilterCustomerRegionList();
+            // Where.FilterToIndex();
 
-                // Select
+            // Select
 
-                // Select.PrintSequence();
-                // Select.SelectOneField();
-                // Select.SwapPrint();
-                // Select.SortWordsCase();
-                // Select.DigitOddEven();
-                // Select.SelectProductField();
-                // Select.PrintIndex();
-                // Select.SelectWhere();
-                // Select.SelectTwoArray();
+            // Select.PrintSequence();
+            // Select.SelectOneField();
+            // Select.SwapPrint();
+            // Select.SortWordsCase();
+            // Select.DigitOddEven();
+            // Select.SelectProductField();
+            // Select.PrintIndex();
+            // Select.SelectWhere();
+            // Select.SelectTwoArray();
 
-                // Group By Into 
+            // Group By Into 
 
-                // GroupByInto.GetSameRemainder();
-                // GroupByInto.GetSameFirstLetter();
-                // GroupByInto.GetSameCategory();
-                // GroupByInto.GetIEqualityComparer();
+            // GroupByInto.GetSameRemainder();
+            // GroupByInto.GetSameFirstLetter();
+            // GroupByInto.GetSameCategory();
+            // GroupByInto.GetIEqualityComparer();
 
-                // Partition Operator
+            // Partition Operator
 
-                // PartitionOperator.TakeNumber();
-                // PartitionOperator.Take3OrdersFromSamePlace();
-                // PartitionOperator.Skip4Numbers();
-                // PartitionOperator.GetUntil2Orders();
-                // PartitionOperator.TakeFirstNumbersLessThan6();
-                // PartitionOperator.TakeFirstSmallNumbers();
-                // PartitionOperator.SkipWhile();
+            // PartitionOperator.TakeNumber();
+            // PartitionOperator.Take3OrdersFromSamePlace();
+            // PartitionOperator.Skip4Numbers();
+            // PartitionOperator.GetUntil2Orders();
+            // PartitionOperator.TakeFirstNumbersLessThan6();
+            // PartitionOperator.TakeFirstSmallNumbers();
+            // PartitionOperator.SkipWhile();
 
-                // Ordering Operator
+            // Ordering Operator
 
-                // OrderingOperator.SortedWords();
-                // OrderingOperator.SortedWordsByLength();
-                // OrderingOperator.SortedProductByName();
-                // OrderingOperator.DescendingOrder();
-                // OrderingOperator.Sorted2Condition();
-                // OrderingOperator.ReversedDigit();
-                // OrderingOperator.SortedWordsByComparer();
-                // OrderingOperator.SortedWordsByNestedComparer();
+            // OrderingOperator.SortedWords();
+            // OrderingOperator.SortedWordsByLength();
+            // OrderingOperator.SortedProductByName();
+            // OrderingOperator.DescendingOrder();
+            // OrderingOperator.Sorted2Condition();
+            // OrderingOperator.ReversedDigit();
+            // OrderingOperator.SortedWordsByComparer();
+            // OrderingOperator.SortedWordsByNestedComparer();
 
-                // Set Operators
+            // Set Operators
 
-                // SetOperators.RemoveOverlap();
-                // SetOperators.UnionNumbers();
-                // SetOperators.IntersectNumbers();
-                // SetOperators.ExceptNumbers();
+            // SetOperators.RemoveOverlap();
+            // SetOperators.UnionNumbers();
+            // SetOperators.IntersectNumbers();
+            // SetOperators.ExceptNumbers();
 
-                // Conversion Operator
+            // Conversion Operator
 
-                // ConversionOperators.ToArray();
-                // ConversionOperators.ToList();
-                // ConversionOperators.ToDictionary();
-                // ConversionOperators.OfType();
+            // ConversionOperators.ToArray();
+            // ConversionOperators.ToList();
+            // ConversionOperators.ToDictionary();
+            // ConversionOperators.OfType();
 
-                // Element Operators
+            // Element Operators
 
-                // ElementOperators.GetFirstProduct();
-                // ElementOperators.FindStartsWithO();
-                // ElementOperators.FindNumerOrDefault();
-                // ElementOperators.FindProductOrDefault();
-                // ElementOperators.FindFourthLowNumber();
+            // ElementOperators.GetFirstProduct();
+            // ElementOperators.FindStartsWithO();
+            // ElementOperators.FindNumerOrDefault();
+            // ElementOperators.FindProductOrDefault();
+            // ElementOperators.FindFourthLowNumber();
 
-                // Range Repeat
+            // Range Repeat
 
-                //   RangeRepeat.Range();
-                //   RangeRepeat.Repeat();
+            //   RangeRepeat.Range();
+            //   RangeRepeat.Repeat();
 
-                // Quantifiers
+            // Quantifiers
 
-                // Quantifiers.isElementHere();
-                // Quantifiers.isOnlyOdd();
-                // Quantifiers.isGroupHaveStock();
+            // Quantifiers.isElementHere();
+            // Quantifiers.isOnlyOdd();
+            // Quantifiers.isGroupHaveStock();
 
-                // Aggregators
+            // Aggregators
 
-                //Count
-                // Aggregators.Count.DistinctCount();
-                // Aggregators.Count.GetOddNumbersCount();
-                // Aggregators.Count.CountOrder();
+            //Count
+            // Aggregators.Count.DistinctCount();
+            // Aggregators.Count.GetOddNumbersCount();
+            // Aggregators.Count.CountOrder();
 
-                //Sum
-                // Aggregators.Sum.SumNumbers();
-                // Aggregators.Sum.SumLength();
-                // Aggregators.Sum.SumInproduct();
+            //Sum
+            // Aggregators.Sum.SumNumbers();
+            // Aggregators.Sum.SumLength();
+            // Aggregators.Sum.SumInproduct();
 
-                //Min
-                // Aggregators.Min.GetMin();
-                // Aggregators.Min.GetShortestWord();
-                // Aggregators.Min.GetSameCategory();
+            //Min
+            // Aggregators.Min.GetMin();
+            // Aggregators.Min.GetShortestWord();
+            // Aggregators.Min.GetSameCategory();
 
-                // SequenceOperations
+            // SequenceOperations
 
-                // SequenceOperations.isMatch();
-                // SequenceOperations.ConcatNumbers();
-                // SequenceOperations.GetDotProduct();
+            // SequenceOperations.isMatch();
+            // SequenceOperations.ConcatNumbers();
+            // SequenceOperations.GetDotProduct();
 
-                //Aggregate
-                Aggregators.Aggregate.GetAggregate();
-                Aggregators.Aggregate.GetfruitAggregate();
-                Aggregators.Aggregate.GetAttemptedWithdrawals();
-            }
+            //Aggregate
+            Aggregators.Aggregate.GetAggregate();
+            Aggregators.Aggregate.GetfruitAggregate();
+            Aggregators.Aggregate.GetAttemptedWithdrawals();
+
         }
     }
 }
