@@ -100,9 +100,15 @@ namespace LINQ_Practice
             // Aggregators.Sum.SumInproduct();
 
             //Min
-            Aggregators.Min.GetMin();
-            Aggregators.Min.GetShortestWord();
-            Aggregators.Min.GetSameCategory();
+            // Aggregators.Min.GetMin();
+            // Aggregators.Min.GetShortestWord();
+            // Aggregators.Min.GetSameCategory();
+
+            // SequenceOperations
+
+            SequenceOperations.isMatch();
+            SequenceOperations.ConcatNumbers();
+            SequenceOperations.GetDotProduct();
         }
     }
 }

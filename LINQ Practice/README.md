@@ -71,4 +71,8 @@ Any 메서드는 집합 안에 조건에 맞는 요소가 하나라도 있는지
 
 집합 내 최솟값 찾기
 
+## [SequenceOperations.cs](https://github.com/twozeronine/Coding_Test/blob/main/LINQ%20Practice/SequenceOperations.cs)
+
+시퀀스 작업에 포함된 메서드는 SequenceEqual, Concat, Zip 입니다. 시퀀스 작업 메서드는 집합 전체를 대상으로 작업합니다.
+
 > 자료 출처: https://ibocon.tistory.com/
