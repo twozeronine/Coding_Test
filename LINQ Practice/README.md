@@ -87,4 +87,26 @@ Enumeralbe.Aggregate 메서드는 합계, 총액 즉 누산기다.
 
 시퀀스 작업에 포함된 메서드는 SequenceEqual, Concat, Zip 입니다. 시퀀스 작업 메서드는 집합 전체를 대상으로 작업합니다.
 
+## JoinOperations
+
+조인은 데이터베이스에 등장하는 개념이다. 조인 작업은 집합 간에 데이터를 연결한다. 조인 작업은 클래스간에 참조 관계가 없더라도 데이터를 연결할 수 있다.
+
+```C#
+  class Customer
+  {
+    public City city {get; set;}
+  }
+  class City
+  {
+    public string Name {get; set;}
+  }
+
+  public static Enumerable<Tuple<City, Enumerable<Customer>>> FindAllCustomersInCity (Enumerable<Customer> allCustomers, Enumerable<City> allCities)
+  {
+    var query = from city in allCities
+                join customer in allCustomers on city.Name equals customer.City.Name into customersInCities
+                select ( City : city, Customers : customersInCities);
+   }
+```
+
 > 자료 출처: https://ibocon.tistory.com/
