@@ -404,7 +404,15 @@ class MainApp
 
     #endregion
 
+    #region 숫자 문자열과 영단어
 
+    //숫자 문자열과 영단어
+    var insert = "one4seveneight";
+    var result37 = NumberAndEnglish.solution(insert);
+    Console.Write($"숫자 문자열과 영단어 :  ");
+    Console.WriteLine(result37);
+
+    #endregion
 
 
 
