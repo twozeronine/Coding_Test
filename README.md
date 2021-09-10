@@ -48,6 +48,7 @@
 35. [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950?language=csharp)
 36. [X만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954?language=csharp)
 37. [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969?language=csharp)
+38. [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)
 
 ### level2
 
