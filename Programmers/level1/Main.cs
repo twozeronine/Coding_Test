@@ -411,14 +411,20 @@ class MainApp
         var money = 20;
         var count = 4;
         var result37 = GetlessPrice.solution(price, money, count);
-        Console.Write($"부족한 :  ");
+        Console.Write($"부족한 금액 :  ");
         Console.Write($"{result37} ");
         Console.WriteLine();
 
         #endregion
+        #region 숫자 문자열과 영단어
 
+        //숫자 문자열과 영단어
+        var insert = "one4seveneight";
+        var result38 = NumberAndEnglish.solution(insert);
+        Console.Write($"숫자 문자열과 영단어 :  ");
+        Console.WriteLine(result38);
 
-
+        #endregion
 
 
     }
