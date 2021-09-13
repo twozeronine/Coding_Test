@@ -426,6 +426,15 @@ class MainApp
 
         #endregion
 
+        #region 없는 숫자 더하기
+
+        //없는 숫자 더하기
+        var result39 = GetExceptNumbers.solution(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 0 });
+        Console.WriteLine($"없는 숫자의 합 : {result39} ");
+
+
+        #endregion
+
 
     }
 }
