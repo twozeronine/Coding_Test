@@ -435,6 +435,15 @@ class MainApp
 
         #endregion
 
+        #region 약수의 개수와 덧셈
+
+        //약수의 개수와 덧셈
+        var result40 = GetDivisionNumber.solution2(13, 17);
+        Console.WriteLine($"약수의 덧셈 : {result40}");
+
+
+        #endregion
+
 
     }
 }
